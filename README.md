@@ -2,22 +2,6 @@
 
 Welcome to the **30 Days JavaScript Challenge**! by one and only Chai And Code! This repository contains solutions to daily JavaScript tasks that are unlocked every day at 7 AM. Each day's task is organized into its own folder.
 
-## Repository Structure
-
-The repository is organized as follows:
-
-30-Days-JS-Challenge/
-│
-├── Day 1/
-│ ├── README.md # Today's task description
-│ └── index.js # Solution to today's task
-│
-├── Day 2/
-│ ├── README.md # Today's task description
-│ └── index.js # Solution to today's task
-│
-...
-
 
 ## Daily Tasks
 
