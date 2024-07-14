@@ -1,6 +1,6 @@
 # 30 Days JavaScript Challenge
 
-Welcome to the **30 Days JavaScript Challenge**! by one and only Chai And Code! This repository contains solutions to daily JavaScript tasks that are unlocked every day at 7 AM. Each day's task is organized into its own folder.
+Welcome to the **30 Days JavaScript Challenge** by one and only Chai And Code! This repository contains solutions to daily JavaScript tasks that are unlocked every day at 7 AM. Each day's task is organized into its own folder.
 
 
 ## Daily Tasks
