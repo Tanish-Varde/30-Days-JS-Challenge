@@ -161,3 +161,136 @@ if ((leapYear % 4 == 0 && leapYear % 100 != 0) || leapYear % 400 == 0) {
 } else {
     console.log(`Year ${leapYear} is not a leap year!`);
 };
+
+
+
+
+
+//! ------------------------------------- Feature Request -------------------------------------
+
+console.log("\n\n Feature Request \n");
+
+
+//! 1. Number Check Script
+
+console.log("\n Number Check Script \n");
+
+let num2 = 1
+
+if (num2 > 0) {
+    console.log(`Number ${num2} is Positive`)
+} else if (num2 < 0) {
+    console.log(`Number ${num2} is Negative`)
+} else if (num2 == 0) {
+    console.log(`Number is ${num2}`)
+} else {
+    console.log(`Please enter valid number`)
+}
+
+
+
+//! 2. Voting Eligibility Script
+
+console.log("\n Voting Eligibility Script \n");
+
+let votingAge = 12;
+
+if (votingAge >= 18) {
+    console.log(`Candidate is eligible to vote!`);
+} else {
+    console.log(`Candidate is not eligible to vote!`);
+}
+
+
+
+//! 3. Day of the Week Script
+
+console.log("\n Day of the Week Script \n");
+
+
+let weekDay = 2;
+
+switch (weekDay) {
+    case 1:
+        console.log(`Sunday`)
+        break;
+
+    case 2:
+        console.log(`Monday`)
+        break;
+
+    case 3:
+        console.log(`tuesday`)
+        break;
+
+    case 4:
+        console.log(`Wednesday`)
+        break;
+
+    case 5:
+        console.log(`thursday`)
+        break;
+
+    case 6:
+        console.log(`Friday`)
+        break;
+
+    case 7:
+        console.log(`Saturday`)
+        break;
+
+    default:
+        console.log(`Enter a number between 1 to 7`)
+        break;
+};
+
+
+
+//! 4. Grade Assignment Script
+
+console.log("\n Grade Assignment Script \n");
+
+
+let grade = 87;
+
+switch (true) {
+    case grade >= 0 && grade <= 20:
+        console.log("F Grade")
+        break;
+
+    case grade >= 21 && grade <= 40:
+        console.log("D Grade")
+        break;
+
+    case grade >= 41 && grade <= 60:
+        console.log("C Grade")
+        break;
+
+    case grade >= 61 && grade <= 80:
+        console.log("B Grade")
+        break;
+
+    case grade >= 81 && grade <= 100:
+        console.log("A Grade")
+        break;
+
+    default:
+        console.log(`You got ${grade}/100, you are a Genius!`)
+        break;
+}
+
+
+
+
+//! 5. Leap Year Check Script:
+
+console.log("\n Leap year check Script \n");
+
+
+let year = 2029;
+
+if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+    console.log(`Year ${year} is a leap year!`);
+} else {
+    console.log(`Year ${year} is not a leap year!`);
+};
