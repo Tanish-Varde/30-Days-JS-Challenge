@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blurred {
+            filter: blur(5px);
+        }
+
+        .task-3 {
+            height: 6rem;
+            width: 6rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h2>Activity 1 => Basic Event Handling</h2>
+
+    <h3>Task 1</h3>
+    <div class="task-1">
+        <p>Click the button to get started!</p>
+        <button style="cursor: pointer;">Click me</button>
+    </div>
+
+
+    <h3>Task 2</h3>
+    <img class="task-2 blurred"
+        src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+        alt="Image" width="140px" height="140px" style="border-radius: 1rem;">
+
+
+
+    <hr style="margin: 2rem 0">
+
+
+
+    <h2>Activity 2 => Mouse Events</h2>
+
+    <h3>Task 3 & Task 4</h3>
+    <div class="task-3"></div>
+
+
+
+    <hr style="margin: 2rem 0">
+
+
+
+    <h2>Activity 3 => Keyboard Events</h2>
+
+    <h3>Task 5</h3>
+    <label for="task5">Username: </label>
+    <input type="text" id="task5" class="task-5" placeholder="type here...">
+
+
+    <h3>Task 6</h3>
+    <div>
+        <label for="task6">Name: </label>
+        <input type="text" id="task6" class="task-6" placeholder="type here...">
+
+        <p class="task-6-para" style="height: 1rem;"></p>
+    </div>
+
+
+    <hr style="margin: 2rem 0">
+
+
+
+    <h2>Activity 4 => Form Events</h2>
+
+    <h3>Task 7</h3>
+    <form class="task-7" action="">
+
+        <label for="form-user">Username: </label>
+        <input type="text" name="user" id="form-user" placeholder="username"><br><br>
+
+        <label for="form-pass">Password: </label>
+        <input type="password" name="password" id="form-pass" placeholder="password"><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <h3>Task 8</h3>
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+    </select>
+
+
+
+    <hr style="margin: 2rem 0">
+
+
+
+    <h2>Activity 5 => Event Delegation</h2>
+
+    <h3>Task 9</h3>
+    <ul class="task-9" style="cursor: pointer;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>Task 10</h3>
+    <div id="parent-element">
+        <button id="add-child">Add Child</button>
+        <div id="child-container" style="margin-top: 2rem;"></div>
+    </div>
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
